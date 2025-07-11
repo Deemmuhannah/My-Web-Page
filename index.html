@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Deem Almuhanna</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      background: linear-gradient(135deg, #e0eafc, #cfdef3);
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .profile-card {
+      background: white;
+      padding: 2.5rem;
+      border-radius: 1.5rem;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      text-align: center;
+      max-width: 320px;
+      animation: fadeIn 1s ease forwards;
+    }
+
+    .profile-card img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #0077b5;
+    }
+
+    .profile-card h1 {
+      margin: 1.2rem 0 0.5rem;
+      font-size: 1.8rem;
+      color: #333;
+    }
+
+    .profile-card p {
+      color: #555;
+      margin-bottom: 1.5rem;
+    }
+
+    .profile-card a {
+      display: inline-block;
+      margin: 0.5rem;
+      padding: 0.6rem 1.2rem;
+      background: linear-gradient(135deg, #0077b5, #00a0dc);
+      color: white;
+      text-decoration: none;
+      border-radius: 50px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    .profile-card a.github {
+      background: linear-gradient(135deg, #333, #555);
+    }
+
+    .profile-card a i {
+      margin-right: 8px;
+    }
+
+    .profile-card a:hover {
+      transform: translateY(-3px) scale(1.05);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-card">
+    <img src="1739386506682.jpeg" alt="Deem Almuhanna">
+    <h1>Deem Almuhanna</h1>
+    <p>AI Student & PR Specialist</p>
+    <a href="https://www.linkedin.com/in/deem-almuhanna-a4b456284/" target="_blank">
+      <i class="fab fa-linkedin"></i>LinkedIn
+    </a>
+    <a href="https://github.com/Deemmuhannah" target="_blank" class="github">
+      <i class="fab fa-github"></i>GitHub
+    </a>
+  </div>
+</body>
+</html>
+
+
